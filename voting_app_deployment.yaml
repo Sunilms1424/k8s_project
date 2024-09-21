@@ -2,10 +2,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: voting_app_deployment
+  name: voting-app-deployment
   labels:
-    name: voting_app_deployment
-    app: demo_voting_app
+    name: voting-app-deployment
+    app: demo-voting-app
 spec:
   replicas: 1
   selector:
